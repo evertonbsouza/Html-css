@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0%;
+        }
+        header {
+            background-color: brown;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(117, 115, 115);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+
+            
+        }
+        nav > :hover {
+            text-decoration: underline;
+            box-shadow: 1px 1px 1px black;
+        }
+        main {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: rgb(139, 0, 49);
+            color: rgb(151, 142, 199);
+            padding: 6px;
+        }
+        article > aside {
+            background-color: rgb(68, 174, 11);
+            color: black;
+        } 
+        footer {
+            background-color: black;
+            color: chocolate;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+            footer > p {
+                margin: 0%;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            
+        </nav>
+    </header>
+
+    <main>
+       <section id="assuntos">
+
+       </section>
+        <section id=" noticias">
+          <article>
+            <h2>Noticias sobre Everton</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea at eaque est rem beatae aspernatur doloremque in consequuntur atque, expedita et ratione vel alias. Hic eaque praesentium dolorem expedita voluptate!</p>
+            <aside>
+                <p>Artigo escrito por Everton </p>
+            </aside>
+          </article>
+        </section>
+        <footer>
+            <p>Everton Barbosa de Souza</p>
+        </footer>
+    </main>
+</body>
+</html>
